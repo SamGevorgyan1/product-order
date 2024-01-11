@@ -1,0 +1,12 @@
+rootProject.name = 'product-order'
+
+// user service
+include ':user-service-implementation'
+include ':user-service-interface'
+include ':user-service-client'
+
+project(':user-service-implementation').projectDir = file('components/services/user-service/implementation')
+project(':user-service-interface').projectDir = file('components/services/user-service/interface')
+project(':user-service-client').projectDir = file('components/services/user-service/client')
+
+// tenant service
