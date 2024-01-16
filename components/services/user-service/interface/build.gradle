@@ -2,8 +2,6 @@ plugins {
     id 'java'
 }
 
-group = 'com.product-order'
-version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()

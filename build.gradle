@@ -1,9 +1,11 @@
 plugins {
     id 'java'
+    id 'com.avast.gradle.docker-compose' version "0.15.0"
 }
 
-group = 'com.product-order'
-version = '1.0-SNAPSHOT'
+group = 'com.productorder.platform.user'
+
+
 
 repositories {
     mavenCentral()
