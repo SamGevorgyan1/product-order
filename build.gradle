@@ -3,9 +3,9 @@ plugins {
     id 'com.avast.gradle.docker-compose' version "0.15.0"
 }
 
-group = 'com.productorder.platform.user'
-
-
+dockerCompose {
+    useComposeFiles = ["docker/docker-compose.yml"]
+}
 
 repositories {
     mavenCentral()
